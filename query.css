@@ -1,0 +1,36 @@
+@media (max-width: 600px) {
+header {
+    position: relative;
+    }
+    header nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    position: absolute;
+    top: 70px;
+    background-color: #15304c;
+    width: 100%;
+    }
+    .menu-icon {
+        display: block;
+        color: rgb(192, 192, 192);
+        font-size: 23px;
+        }
+    .menu-icon:hover {
+        color: white;
+    }  
+    header nav li {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+    }
+    /* Tohle už není potřeba jelikož neměníme atribut display ;)
+    
+    @media (min-width: 600px){
+        header nav {
+        display: block !important;
+            }
+            }
+     */       
